@@ -18,12 +18,12 @@
         <column_label>Priority</column_label>
         <comments/>
         <create_roles/>
-        <default_value>Normal</default_value>
+        <default_value>4</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -31,7 +31,7 @@
         <element>priority</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_121778_maintenan_request</name>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-05-09 16:01:49</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>51df47760f6232002e4f3a7ce1050ec4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2017-05-09 20:08:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8dbcbf3e0fa232002e4f3a7ce1050e1c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Priority</sys_name>
         <sys_package display_value="Maintenance Support Request" source="x_121778_maintenan">442236b20f2232002e4f3a7ce1050e7a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Maintenance Support Request">442236b20f2232002e4f3a7ce1050e7a</sys_scope>
         <sys_update_name>sys_dictionary_x_121778_maintenan_request_priority</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-05-09 16:51:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-09 20:21:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
