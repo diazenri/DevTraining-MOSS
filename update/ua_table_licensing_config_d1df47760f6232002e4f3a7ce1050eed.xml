@@ -13,15 +13,15 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-05-09 16:01:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>a594c7fe0f2232002e4f3a7ce1050e9b</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1df47760f6232002e4f3a7ce1050eed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_121778_maintenan_request</sys_name>
         <sys_package display_value="Maintenance Support Request" source="x_121778_maintenan">442236b20f2232002e4f3a7ce1050e7a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Maintenance Support Request">442236b20f2232002e4f3a7ce1050e7a</sys_scope>
-        <sys_update_name>ua_table_licensing_config_a594c7fe0f2232002e4f3a7ce1050e9b</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_d1df47760f6232002e4f3a7ce1050eed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-05-09 16:01:51</sys_updated_on>
     </ua_table_licensing_config>

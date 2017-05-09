@@ -14,7 +14,12 @@
                 <element label="High" sequence="2" value="High"/>
             </choice>
         </element>
-        <element default="Open" label="Status" max_length="40" name="status" read_only="true" type="string"/>
+        <element choice="1" default="Open" label="Status" mandatory="true" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Closed" sequence="1" value="Choice 2"/>
+            </choice>
+        </element>
         <element label="Subject" mandatory="true" max_length="40" name="subject" type="string"/>
         <element choice="1" default="Team 1" label="Select a Team" mandatory="true" max_length="40" name="team" type="string">
             <choice>
