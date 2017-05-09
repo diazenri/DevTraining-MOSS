@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request" max_length="40" name="x_121778_maintenan_request" type="collection">
+        <element label="Email Address" mandatory="true" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="Location" mandatory="true" max_length="40" name="location" type="string"/>
+        <element label="Message" mandatory="true" max_length="120" name="message" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" default="Normal" display="true" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Normal" sequence="1" value="Normal"/>
+                <element label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element default="Open" label="Status" max_length="40" name="status" read_only="true" type="string"/>
+        <element label="Subject" mandatory="true" max_length="40" name="subject" type="string"/>
+        <element choice="1" default="Team 1" label="Select a Team" mandatory="true" max_length="40" name="team" type="string">
+            <choice>
+                <element label="Team 1" sequence="0" value="Team 1"/>
+                <element label="Team 2" sequence="1" value="Team 2"/>
+                <element label="Team 3" sequence="2" value="Team 3"/>
+                <element label="Team 4" sequence="3" value="Team 4"/>
+            </choice>
+        </element>
+        <element label="Telephone" mandatory="true" max_length="40" name="telephone_num" type="string"/>
+    </element>
+</database>

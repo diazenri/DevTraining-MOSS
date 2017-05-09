@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="More details" section_id="b5f787720f6232002e4f3a7ce1050e3a" sys_domain="global" table="x_121778_maintenan_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 16:25:29</sys_created_on>
+            <sys_id>b3f90bb20f6232002e4f3a7ce1050e78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="More details" display_value="More details" name="x_121778_maintenan_request" sys_domain="global" view="Default view">b5f787720f6232002e4f3a7ce1050e3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 16:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 16:25:29</sys_created_on>
+            <sys_id>37f90bb20f6232002e4f3a7ce1050e78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="More details" display_value="More details" name="x_121778_maintenan_request" sys_domain="global" view="Default view">b5f787720f6232002e4f3a7ce1050e3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 16:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 16:25:29</sys_created_on>
+            <sys_id>b7f90bb20f6232002e4f3a7ce1050e78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="More details" display_value="More details" name="x_121778_maintenan_request" sys_domain="global" view="Default view">b5f787720f6232002e4f3a7ce1050e3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 16:25:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>More details</caption>
+            <header>false</header>
+            <name>x_121778_maintenan_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 16:16:36</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5f787720f6232002e4f3a7ce1050e3a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>More details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Maintenance Support Request" source="x_121778_maintenan">442236b20f2232002e4f3a7ce1050e7a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Maintenance Support Request">442236b20f2232002e4f3a7ce1050e7a</sys_scope>
+            <sys_update_name>sys_ui_section_b5f787720f6232002e4f3a7ce1050e3a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 16:16:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
